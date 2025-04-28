@@ -4,6 +4,6 @@ dotenv.config();
 
 export const config = {
   port: process.env.PORT || 3000,
-  mongoUri: process.env.MONGO_URI || 'mongodb://localhost:27017/bdd-services-Clement7892',
+  mongoUri: process.env.MONGO_URI || 'mongodb://localhost:27017/bdd-services-AndreClaveria',
   jwtSecret: process.env.JWT_SECRET || 'your-secret-key'
 };

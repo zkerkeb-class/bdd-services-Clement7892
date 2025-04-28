@@ -1,7 +1,7 @@
-# bdd-services-Clement7892
+# bdd-services-AndreClaveria
 
 ## Description
-This is a microservice for the Clement7892 project.
+This is a microservice for the AndreClaveria project.
 
 ## Installation
 `ash
