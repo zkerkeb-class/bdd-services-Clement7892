@@ -20,7 +20,6 @@ export const getUserById = async (
     });
 
     if (!response.ok) {
-      // Logging détaillé pour le débogage
       const responseText = await response.text();
       console.log(
         `Response from auth service: ${response.status} - ${responseText}`
