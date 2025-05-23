@@ -46,7 +46,7 @@ router.put(
 router.delete(
   "/:id",
   authenticateJWT,
-  authorizeRoles("admin", "manager"),
+  authorizeRoles("admin", "manager", "user"),
   clientController.deleteClient
 );
 
