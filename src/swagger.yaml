@@ -1,16 +1,16 @@
 openapi: 3.0.0
 info:
-  title: CRM AndreClaveria BDD Service API
+  title: CRM Clement7892 BDD Service API
   version: 1.0.0
-  description: Documentation de l'API du microservice BDD (Clients, Contacts, Entreprises, Opportunités, Équipes) pour le CRM AndreClaveria
+  description: Documentation de l'API du microservice BDD (Clients, Contacts, Entreprises, Opportunités, Équipes) pour le CRM Clement7892
   contact:
     name: Support
-    email: support@andreclaveria.fr
+    email: support@clement7892.fr
 
 servers:
   - url: http://localhost:3002
     description: Serveur de développement
-  - url: https://api.andreclaveria.fr/bdd
+  - url: https://api.clement7892.fr/bdd
     description: Serveur de production
 
 components:
@@ -178,7 +178,7 @@ components:
           format: date-time
           description: Date de dernière mise à jour
       example:
-        name: "AndreClaveria SARL"
+        name: "Clement7892 SARL"
         description: "Entreprise de conseil en informatique"
         address:
           street: "456 avenue Business"
@@ -186,8 +186,8 @@ components:
           zipCode: "69000"
           country: "France"
         phone: "0123456789"
-        email: "contact@andreclaveria.fr"
-        website: "https://www.andreclaveria.fr"
+        email: "contact@clement7892.fr"
+        website: "https://www.clement7892.fr"
         industry: "Conseil"
         owner: "60d21b4667d0d8992e610c86"
         isActive: true
@@ -568,7 +568,7 @@ components:
           type: string
           description: ID du propriétaire de l'entreprise
       example:
-        name: "AndreClaveria SARL"
+        name: "Clement7892 SARL"
         description: "Entreprise de conseil en informatique"
         address:
           street: "456 avenue Business"
@@ -576,8 +576,8 @@ components:
           zipCode: "69000"
           country: "France"
         phone: "0123456789"
-        email: "contact@andreclaveria.fr"
-        website: "https://www.andreclaveria.fr"
+        email: "contact@clement7892.fr"
+        website: "https://www.clement7892.fr"
         industry: "Conseil"
         owner: "60d21b4667d0d8992e610c86"
 
