@@ -3,7 +3,6 @@ import dotenv from "dotenv";
 dotenv.config();
 
 import cors from "cors";
-
 import helmet from "helmet";
 import morgan from "morgan";
 import config from "./config";
